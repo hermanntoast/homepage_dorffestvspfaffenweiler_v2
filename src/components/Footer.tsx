@@ -38,6 +38,21 @@ export default function Footer() {
             <a href="#/datenschutz" className="text-gray-500 text-sm hover:text-white transition-colors">Datenschutz</a>
           </div>
         </div>
+        <div className="border-t border-gray-800/60 mt-6 pt-4 text-center">
+          <p className="text-gray-500 text-xs">
+            Mit{" "}
+            <span className="text-rose-400" aria-label="Liebe">♥</span>{" "}
+            entwickelt von{" "}
+            <a
+              href="https://luxcode.io"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-gray-300 hover:text-white transition-colors underline-offset-2 hover:underline"
+            >
+              Luxcode
+            </a>
+          </p>
+        </div>
       </div>
     </footer>
   );
