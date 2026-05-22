@@ -90,7 +90,7 @@ export const vereine: Verein[] = [
   },
   {
     id: 5,
-    name: "Musik- & Trachtenkapelle und Kirchenchor",
+    name: "Musik- & Trachtenkapelle",
     beschreibung: "Musik- & Trachtenkapelle",
     logo: "/logos/vereine/mut.png",
     website: "#",
@@ -117,7 +117,7 @@ export const vereine: Verein[] = [
   },
   {
     id: 8,
-    name: "Kindertagesstätte und Förderverein",
+    name: "Kindertagesstätte",
     beschreibung: "Kindertagesstätte Pfaffenweiler",
     logo: "/logos/vereine/kita.png",
     website: "https://www.villingen-schwenningen.de/bildung-soziales/kindertagesbetreuung/kitafinder/einrichtung/staedtische-kindertagesstaette-pfaffenweiler/",
