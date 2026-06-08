@@ -154,6 +154,7 @@ export const sponsoren: Sponsor[] = [
   { id: 7, name: "Fliesenleger Ronny Junker", logo: "/logos/sponsoren/Logo_Fliesenleger.jpg", website: "https://www.fliesenleger-vs.de" },
   { id: 8, name: "RG Reisemobil Regalbau", logo: "/logos/sponsoren/Logo_rg.png", website: "#" },
   { id: 9, name: "Stegmaier", logo: "/logos/sponsoren/Logo_Stegmaier.png", website: "#" },
+  { id: 10, name: "KKT Kunststoff Kompetenz Team", logo: "/logos/sponsoren/Logo_KKT.png", website: "#" },
   // { id: 4, name: "Kettner", logo: "/logos/sponsoren/Logo_Kettner.png", website: "#" },
   // { id: 3, name: "Volksbank", logo: "/logos/sponsoren/Logo_VoBa.png", website: "#" },
   // { id: 4, name: "Merz", logo: "/logos/sponsoren/Logo_Merz.png", website: "#" },
