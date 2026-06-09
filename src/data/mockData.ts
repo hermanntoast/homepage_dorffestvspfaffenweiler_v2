@@ -94,7 +94,7 @@ export const vereine: Verein[] = [
     beschreibung: "Musik- & Trachtenkapelle",
     logo: "/logos/vereine/mut.png",
     website: "#",
-    essen: ["Cevapcici im Wecken", "Gebackener Camembert im Wecken"],
+    essen: ["Cevapcici im Wecken", "Grillkäse im Wecken"],
     getraenke: ["Alkoholfreie Getränke", "Flaschenbier", "Weinschorle (Bollegued)"],
   },
   {
