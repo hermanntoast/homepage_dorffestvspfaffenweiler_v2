@@ -103,7 +103,7 @@ export const vereine: Verein[] = [
     beschreibung: "Tennisclub",
     logo: "/logos/vereine/tennis.png",
     website: "https://www.tc-1980-pfaffenweiler.de/",
-    essen: ["Heiße Sandwiches", "Antipastiteller"],
+    essen: ["Heiße Sandwiches"],
     getraenke: ["Wein", "Veneziano", "Sommerschorle"],
   },
   {
