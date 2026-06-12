@@ -117,12 +117,12 @@ export const vereine: Verein[] = [
   },
   {
     id: 8,
-    name: "Kindertagesstätte",
+    name: "Kindertagesstätte und Förderverein",
     beschreibung: "Kindertagesstätte Pfaffenweiler",
     logo: "/logos/vereine/kita.png",
     website: "https://www.villingen-schwenningen.de/bildung-soziales/kindertagesbetreuung/kitafinder/einrichtung/staedtische-kindertagesstaette-pfaffenweiler/",
     essen: ["Candy Bar", "Eis", "Popcorn"],
-    getraenke: ["Kindercocktails", "Alkoholfreier Aperol"],
+    getraenke: ["alk. freie Cocktails", "alk. freier Aperol"],
   },
   {
     id: 9,
