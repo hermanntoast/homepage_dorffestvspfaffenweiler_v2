@@ -164,7 +164,7 @@ export const sponsoren: Sponsor[] = [
   // { id: 6, name: "Fliesenleger", logo: "/logos/sponsoren/Logo_Fliesenleger.jpg", website: "#" },
   // { id: 7, name: "JF", logo: "/logos/sponsoren/JF_Logo_Neutral.jpg", website: "#" },
   // { id: 8, name: "RG", logo: "/logos/sponsoren/Logo_rg.png", website: "#" },
-  // { id: 9, name: "Huonker", logo: "/logos/sponsoren/Logo_Huonker.jpg", website: "#" },
+  { id: 14, name: "Huonker", logo: "/logos/sponsoren/Logo_Huonker.jpg", website: "#" },
   // { id: 10, name: "Herrmann", logo: "/logos/sponsoren/Logo_Herrmann.jpeg", website: "#" },
   // { id: 11, name: "Schultz", logo: "/logos/sponsoren/Logo_Schultz.png", website: "#" },
   // { id: 12, name: "Hummel", logo: "/logos/sponsoren/Logo_Hummel.png", website: "#" },
