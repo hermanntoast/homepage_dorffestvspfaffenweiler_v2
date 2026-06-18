@@ -76,8 +76,8 @@ export const vereine: Verein[] = [
     beschreibung: "Narrenzunft",
     logo: "/logos/vereine/narrenverein.png",
     website: "https://www.wolfbachrolli.org/",
-    essen: ["Süßigkeiten", "Knabberzeug"],
-    getraenke: ["Wein-Slushi", "Slushi", "Alkoholfreie Getränke"],
+    essen: ["Knabberzeug"],
+    getraenke: ["Slushi Orange Maracuja (alkoholfrei)", "Slushi Orange Maracuja mit Schuss", "Wein Slushi", "Pils", "Radler", "Alkoholfreies Radler", "Bollengutschorle weiß/rot", "Alkoholfreie Getränke", "Shot (verschiedene Sorten)"],
   },
   {
     id: 4,
