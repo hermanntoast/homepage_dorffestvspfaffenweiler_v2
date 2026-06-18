@@ -86,7 +86,7 @@ export const vereine: Verein[] = [
     logo: "/logos/vereine/judo.png",
     website: "https://www.jsc-74-pfaffenweiler.de/",
     essen: ["Wurstsalat", "Wurstsalatwecken", "Käsespätzle", "Waffeln"],
-    getraenke: ["Aperol", "Lillet", "Bier", "Now Saft Schorle", "Sarti"],
+    getraenke: ["Aperol", "Lillet", "Bier", "Teinacher Genuss Schorle", "Sarti"],
   },
   {
     id: 5,
