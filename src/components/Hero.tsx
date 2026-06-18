@@ -137,6 +137,18 @@ export default function Hero() {
           </a>
         </div>
 
+        {/* Mobile Wetter Pill */}
+        <div
+          className={`lg:hidden mt-8 inline-flex items-center gap-2 px-5 py-3 rounded-full bg-yellow-200/95 text-gray-900 shadow-xl backdrop-blur-sm border border-yellow-300/60 transition-all duration-1000 ease-out ${
+            loaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+          }`}
+          style={{ transitionDelay: "1700ms" }}
+        >
+          <span className="text-lg">☀️</span>
+          <span className="text-sm font-bold">Traumwetter!</span>
+          <span className="text-xs font-semibold opacity-70">Abkühlung ist gesorgt ❄️</span>
+        </div>
+
         {/* Mobile/Tablet Klosterbrass Highlight Pill */}
         <a
           href="#programm"
@@ -157,6 +169,32 @@ export default function Hero() {
           </span>
           <span className="text-xs font-semibold opacity-80">Sa · 20 Uhr</span>
         </a>
+      </div>
+
+      {/* Desktop Wetter Post-it */}
+      <div
+        className={`hidden lg:block absolute bottom-16 left-10 xl:left-20 z-20 w-52 transition-all duration-1000 ease-out ${
+          loaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
+        }`}
+        style={{
+          transitionDelay: "1900ms",
+          opacity: loaded ? Math.max(1 - scrollY / 400, 0) : 0,
+        }}
+      >
+        <div className="relative group -rotate-2 hover:rotate-0 transition-transform duration-500">
+          {/* Tape */}
+          <span className="absolute -top-3 left-1/2 -translate-x-1/2 w-14 h-5 bg-yellow-300/70 rotate-1 rounded-sm shadow-md z-10" />
+          {/* Card */}
+          <div className="bg-yellow-200 rounded-md shadow-2xl px-5 py-4 ring-1 ring-yellow-300/60">
+            <div className="flex items-center gap-1 text-2xl mb-2">
+              <span>☀️</span><span>🌡️</span><span>🧊</span>
+            </div>
+            <p className="text-gray-900 font-black text-base leading-tight">Traumwetter!</p>
+            <p className="text-gray-700 text-sm font-semibold mt-1 leading-snug">
+              Für Abkühlung<br />ist gesorgt ❄️
+            </p>
+          </div>
+        </div>
       </div>
 
       {/* Desktop Klosterbrass Floating Sticker */}
