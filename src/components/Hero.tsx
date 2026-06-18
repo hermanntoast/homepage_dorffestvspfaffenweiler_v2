@@ -144,9 +144,10 @@ export default function Hero() {
           }`}
           style={{ transitionDelay: "1700ms" }}
         >
-          <span className="text-lg">☀️</span>
-          <span className="text-sm font-bold">Traumwetter!</span>
-          <span className="text-xs font-semibold opacity-70">Abkühlung ist gesorgt ❄️</span>
+          <span className="text-base">☀️</span>
+          <span className="text-sm font-black">Traumwetter!</span>
+          <span className="text-xs font-bold opacity-80">Sa 32° · So 29°</span>
+          <span className="text-xs font-semibold opacity-60">❄️</span>
         </div>
 
         {/* Mobile/Tablet Klosterbrass Highlight Pill */}
@@ -173,25 +174,32 @@ export default function Hero() {
 
       {/* Desktop Wetter Post-it */}
       <div
-        className={`hidden lg:block absolute bottom-16 left-10 xl:left-20 z-20 w-52 transition-all duration-1000 ease-out ${
-          loaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"
+        className={`hidden lg:block absolute top-28 left-6 xl:left-16 z-20 w-56 transition-all duration-1000 ease-out ${
+          loaded ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-6"
         }`}
-        style={{
-          transitionDelay: "1900ms",
-          opacity: loaded ? Math.max(1 - scrollY / 400, 0) : 0,
-        }}
+        style={{ transitionDelay: "1900ms" }}
       >
         <div className="relative group -rotate-2 hover:rotate-0 transition-transform duration-500">
           {/* Tape */}
           <span className="absolute -top-3 left-1/2 -translate-x-1/2 w-14 h-5 bg-yellow-300/70 rotate-1 rounded-sm shadow-md z-10" />
           {/* Card */}
           <div className="bg-yellow-200 rounded-md shadow-2xl px-5 py-4 ring-1 ring-yellow-300/60">
-            <div className="flex items-center gap-1 text-2xl mb-2">
-              <span>☀️</span><span>🌡️</span><span>🧊</span>
+            {/* Sun icon + Titel */}
+            <div className="flex items-center gap-2 mb-2">
+              <svg className="w-7 h-7 text-yellow-500 shrink-0" fill="currentColor" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="4"/>
+                <path d="M12 2v2M12 20v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M2 12h2M20 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" stroke="currentColor" strokeWidth="2" strokeLinecap="round" fill="none"/>
+              </svg>
+              <p className="text-gray-900 font-black text-base leading-tight">Traumwetter!</p>
             </div>
-            <p className="text-gray-900 font-black text-base leading-tight">Traumwetter!</p>
-            <p className="text-gray-700 text-sm font-semibold mt-1 leading-snug">
-              Für Abkühlung<br />ist gesorgt ❄️
+            {/* Temperaturen */}
+            <div className="flex items-center gap-3 mb-2 text-sm font-bold text-gray-800">
+              <span>Sa ☀️ 32°</span>
+              <span className="text-gray-400">|</span>
+              <span>So ☀️ 29°</span>
+            </div>
+            <p className="text-gray-700 text-xs font-semibold leading-snug">
+              Für Abkühlung ist gesorgt ❄️
             </p>
           </div>
         </div>
